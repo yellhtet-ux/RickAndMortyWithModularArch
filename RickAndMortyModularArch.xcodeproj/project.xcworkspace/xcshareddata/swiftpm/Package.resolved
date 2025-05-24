@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "factory",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hmlongco/Factory.git",
+      "state" : {
+        "revision" : "56129530a97d89d03f610685d348d333af4989bb",
+        "version" : "2.5.2"
+      }
+    },
+    {
+      "identity" : "pilot",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Thieurom/Pilot.git",
+      "state" : {
+        "revision" : "d0c990223f3447fd912ae716d03676fd1db714af",
+        "version" : "0.5.1"
+      }
+    }
+  ],
+  "version" : 2
+}

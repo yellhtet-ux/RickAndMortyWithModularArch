@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E3CA8CF2DDCC938006E47BC /* Entities in Frameworks */ = {isa = PBXBuildFile; productRef = 7E3CA8CE2DDCC938006E47BC /* Entities */; };
+		7E3CA8D12DDCC938006E47BC /* RepositoryInterfaceProtocol in Frameworks */ = {isa = PBXBuildFile; productRef = 7E3CA8D02DDCC938006E47BC /* RepositoryInterfaceProtocol */; };
+		7E3CA8D32DDCC938006E47BC /* UseCaseInterfaceProtocol in Frameworks */ = {isa = PBXBuildFile; productRef = 7E3CA8D22DDCC938006E47BC /* UseCaseInterfaceProtocol */; };
+		7E3CA8D52DDCC938006E47BC /* UseCases in Frameworks */ = {isa = PBXBuildFile; productRef = 7E3CA8D42DDCC938006E47BC /* UseCases */; };
+		7E92BD192DE0B45D00E73854 /* NetworkExtension in Frameworks */ = {isa = PBXBuildFile; productRef = 7E92BD182DE0B45D00E73854 /* NetworkExtension */; };
+		7EB5B44C2DDEF7BF00AB7CAF /* Pilot in Frameworks */ = {isa = PBXBuildFile; productRef = 7EB5B44B2DDEF7BF00AB7CAF /* Pilot */; };
+		7EB5B44E2DDEF7BF00AB7CAF /* PilotTestSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 7EB5B44D2DDEF7BF00AB7CAF /* PilotTestSupport */; };
+		7EB5B4502DDEF7BF00AB7CAF /* PilotType in Frameworks */ = {isa = PBXBuildFile; productRef = 7EB5B44F2DDEF7BF00AB7CAF /* PilotType */; };
+		7EC74BA82DE0A7FF0048E8AA /* Factory in Frameworks */ = {isa = PBXBuildFile; productRef = 7EC74BA72DE0A7FF0048E8AA /* Factory */; };
+		7EC74BAA2DE0A7FF0048E8AA /* FactoryKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7EC74BA92DE0A7FF0048E8AA /* FactoryKit */; };
+		7EC74BAC2DE0A7FF0048E8AA /* FactoryTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 7EC74BAB2DE0A7FF0048E8AA /* FactoryTesting */; };
+		7EC74BB22DE0ADAD0048E8AA /* Home in Frameworks */ = {isa = PBXBuildFile; productRef = 7EC74BB12DE0ADAD0048E8AA /* Home */; };
+		7EC74BB42DE0AEC00048E8AA /* Repositories in Frameworks */ = {isa = PBXBuildFile; productRef = 7EC74BB32DE0AEC00048E8AA /* Repositories */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7E3CA8A02DDC8110006E47BC /* RickAndMortyModularArch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickAndMortyModularArch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E3CA8CC2DDCC8FF006E47BC /* Domain */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Domain; sourceTree = "<group>"; };
+		7EB5B4492DDEE1CC00AB7CAF /* Data */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Data; sourceTree = "<group>"; };
+		7EB5B45B2DDF75E100AB7CAF /* Home */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Home; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		7E3CA8A22DDC8110006E47BC /* RickAndMortyModularArch */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RickAndMortyModularArch;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E3CA89D2DDC8110006E47BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EC74BB42DE0AEC00048E8AA /* Repositories in Frameworks */,
+				7EB5B44C2DDEF7BF00AB7CAF /* Pilot in Frameworks */,
+				7EB5B44E2DDEF7BF00AB7CAF /* PilotTestSupport in Frameworks */,
+				7E3CA8D52DDCC938006E47BC /* UseCases in Frameworks */,
+				7EC74BAA2DE0A7FF0048E8AA /* FactoryKit in Frameworks */,
+				7E3CA8D12DDCC938006E47BC /* RepositoryInterfaceProtocol in Frameworks */,
+				7E3CA8D32DDCC938006E47BC /* UseCaseInterfaceProtocol in Frameworks */,
+				7EB5B4502DDEF7BF00AB7CAF /* PilotType in Frameworks */,
+				7E3CA8CF2DDCC938006E47BC /* Entities in Frameworks */,
+				7EC74BAC2DE0A7FF0048E8AA /* FactoryTesting in Frameworks */,
+				7EC74BA82DE0A7FF0048E8AA /* Factory in Frameworks */,
+				7EC74BB22DE0ADAD0048E8AA /* Home in Frameworks */,
+				7E92BD192DE0B45D00E73854 /* NetworkExtension in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E3CA8972DDC8110006E47BC = {
+			isa = PBXGroup;
+			children = (
+				7EB5B45B2DDF75E100AB7CAF /* Home */,
+				7EB5B4492DDEE1CC00AB7CAF /* Data */,
+				7E3CA8CC2DDCC8FF006E47BC /* Domain */,
+				7E3CA8A22DDC8110006E47BC /* RickAndMortyModularArch */,
+				7E3CA8CD2DDCC938006E47BC /* Frameworks */,
+				7E3CA8A12DDC8110006E47BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E3CA8A12DDC8110006E47BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E3CA8A02DDC8110006E47BC /* RickAndMortyModularArch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E3CA8CD2DDCC938006E47BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E3CA89F2DDC8110006E47BC /* RickAndMortyModularArch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E3CA8AE2DDC8113006E47BC /* Build configuration list for PBXNativeTarget "RickAndMortyModularArch" */;
+			buildPhases = (
+				7E3CA89C2DDC8110006E47BC /* Sources */,
+				7E3CA89D2DDC8110006E47BC /* Frameworks */,
+				7E3CA89E2DDC8110006E47BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				7E3CA8A22DDC8110006E47BC /* RickAndMortyModularArch */,
+			);
+			name = RickAndMortyModularArch;
+			packageProductDependencies = (
+				7E3CA8CE2DDCC938006E47BC /* Entities */,
+				7E3CA8D02DDCC938006E47BC /* RepositoryInterfaceProtocol */,
+				7E3CA8D22DDCC938006E47BC /* UseCaseInterfaceProtocol */,
+				7E3CA8D42DDCC938006E47BC /* UseCases */,
+				7EB5B44B2DDEF7BF00AB7CAF /* Pilot */,
+				7EB5B44D2DDEF7BF00AB7CAF /* PilotTestSupport */,
+				7EB5B44F2DDEF7BF00AB7CAF /* PilotType */,
+				7EC74BA72DE0A7FF0048E8AA /* Factory */,
+				7EC74BA92DE0A7FF0048E8AA /* FactoryKit */,
+				7EC74BAB2DE0A7FF0048E8AA /* FactoryTesting */,
+				7EC74BB12DE0ADAD0048E8AA /* Home */,
+				7EC74BB32DE0AEC00048E8AA /* Repositories */,
+				7E92BD182DE0B45D00E73854 /* NetworkExtension */,
+			);
+			productName = RickAndMortyModularArch;
+			productReference = 7E3CA8A02DDC8110006E47BC /* RickAndMortyModularArch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E3CA8982DDC8110006E47BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					7E3CA89F2DDC8110006E47BC = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = 7E3CA89B2DDC8110006E47BC /* Build configuration list for PBXProject "RickAndMortyModularArch" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E3CA8972DDC8110006E47BC;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				7EB5B44A2DDEF7BF00AB7CAF /* XCRemoteSwiftPackageReference "Pilot" */,
+				7EC74BA62DE0A7FF0048E8AA /* XCRemoteSwiftPackageReference "Factory" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7E3CA8A12DDC8110006E47BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E3CA89F2DDC8110006E47BC /* RickAndMortyModularArch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E3CA89E2DDC8110006E47BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E3CA89C2DDC8110006E47BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7E3CA8AC2DDC8113006E47BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7E3CA8AD2DDC8113006E47BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E3CA8AF2DDC8113006E47BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RickAndMortyModularArch/Preview Content\"";
+				DEVELOPMENT_TEAM = 3686A6RW24;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrew.com.RickAndMortyModularArch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E3CA8B02DDC8113006E47BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RickAndMortyModularArch/Preview Content\"";
+				DEVELOPMENT_TEAM = 3686A6RW24;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrew.com.RickAndMortyModularArch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E3CA89B2DDC8110006E47BC /* Build configuration list for PBXProject "RickAndMortyModularArch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E3CA8AC2DDC8113006E47BC /* Debug */,
+				7E3CA8AD2DDC8113006E47BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E3CA8AE2DDC8113006E47BC /* Build configuration list for PBXNativeTarget "RickAndMortyModularArch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E3CA8AF2DDC8113006E47BC /* Debug */,
+				7E3CA8B02DDC8113006E47BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7EB5B44A2DDEF7BF00AB7CAF /* XCRemoteSwiftPackageReference "Pilot" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Thieurom/Pilot.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.1;
+			};
+		};
+		7EC74BA62DE0A7FF0048E8AA /* XCRemoteSwiftPackageReference "Factory" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hmlongco/Factory.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7E3CA8CE2DDCC938006E47BC /* Entities */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Entities;
+		};
+		7E3CA8D02DDCC938006E47BC /* RepositoryInterfaceProtocol */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RepositoryInterfaceProtocol;
+		};
+		7E3CA8D22DDCC938006E47BC /* UseCaseInterfaceProtocol */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UseCaseInterfaceProtocol;
+		};
+		7E3CA8D42DDCC938006E47BC /* UseCases */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UseCases;
+		};
+		7E92BD182DE0B45D00E73854 /* NetworkExtension */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NetworkExtension;
+		};
+		7EB5B44B2DDEF7BF00AB7CAF /* Pilot */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7EB5B44A2DDEF7BF00AB7CAF /* XCRemoteSwiftPackageReference "Pilot" */;
+			productName = Pilot;
+		};
+		7EB5B44D2DDEF7BF00AB7CAF /* PilotTestSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7EB5B44A2DDEF7BF00AB7CAF /* XCRemoteSwiftPackageReference "Pilot" */;
+			productName = PilotTestSupport;
+		};
+		7EB5B44F2DDEF7BF00AB7CAF /* PilotType */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7EB5B44A2DDEF7BF00AB7CAF /* XCRemoteSwiftPackageReference "Pilot" */;
+			productName = PilotType;
+		};
+		7EC74BA72DE0A7FF0048E8AA /* Factory */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7EC74BA62DE0A7FF0048E8AA /* XCRemoteSwiftPackageReference "Factory" */;
+			productName = Factory;
+		};
+		7EC74BA92DE0A7FF0048E8AA /* FactoryKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7EC74BA62DE0A7FF0048E8AA /* XCRemoteSwiftPackageReference "Factory" */;
+			productName = FactoryKit;
+		};
+		7EC74BAB2DE0A7FF0048E8AA /* FactoryTesting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7EC74BA62DE0A7FF0048E8AA /* XCRemoteSwiftPackageReference "Factory" */;
+			productName = FactoryTesting;
+		};
+		7EC74BB12DE0ADAD0048E8AA /* Home */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Home;
+		};
+		7EC74BB32DE0AEC00048E8AA /* Repositories */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Repositories;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7E3CA8982DDC8110006E47BC /* Project object */;
+}
