@@ -10,12 +10,6 @@ import Factory
 import FactoryKit
  
 public struct RandMHomeView: View {
-    @ObservedObject var viewModel: RandMHomeViewModel
-    
-    public init(viewModel: RandMHomeViewModel) {
-        self.viewModel = viewModel
-    }
-    
     public var body: some View {
         VStack {
             Button("Fetch") { 
@@ -44,5 +38,10 @@ public struct RandMHomeView: View {
         .task {
             await viewModel.loadSingleCharacter(id: 2)
         }
+    }
+    
+    @ObservedObject var viewModel: RandMHomeViewModel
+    public init(viewModel: RandMHomeViewModel) {
+        self.viewModel = viewModel
     }
 }
